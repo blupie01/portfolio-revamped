@@ -15,7 +15,7 @@
     /* Set a specific height */
     height: 500px; 
 
-    /* Create the parallax scrolling effect */
+    /*Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,14 +31,29 @@ h2 {
 	padding: 20px;
 }
 
+#about,
+#my-work,
+#contact,
+#intro-heading {
+	text-align: center;
+	font-family: poiretOne;
+}
+
+#header-name,
+#intro-heading,
+.header-links {
+	font-family: lottepaperfang;
+}
+
 #header {
 	height: 6em;
-	background-color: rgba(42, 44, 56, .75);
+	background-color: rgba(42, 44, 56, 1);
+	position: fixed;
+	z-index: 1;
 }
 
 #header-name {
 	float: left;
-	font-family: lottepaperfang;
 	font-size: 2.5em;
 	position: relative;
 	top: 50%;
@@ -59,21 +74,29 @@ h2 {
 .header-links {
 	display: inline-block;
 	padding-left: 20px;
-	font-family: lottepaperfang;
 	font-size: 1.8em;
 }
 
 #intro-heading {
-	text-align: center;
-	font-family: lottepaperfang;
 	color: rgb(48, 23, 34);
-	height: 450px;
+	height: 550px;
 }
+
+/*#my-face {
+	max-width: 100%;
+}*/
+
+/*#my-face {
+	width: 150px;
+	height: 150px;
+	background-image: url("./pictures/derp.jpg");
+	background-size: 150px 150px;
+}*/
 
 #intro-container {
 	position: relative;
 	top: 50%;
-	transform: translateY(-60%); 
+	transform: translateY(-25%); 
 }
 
 #intro-mainheader {
@@ -86,8 +109,6 @@ h2 {
 }
 
 #about {
-	text-align: center;
-	font-family: poiretOne;
 	background-color: rgba(42, 44, 56, .75);
 	color: white;
 }
@@ -98,4 +119,22 @@ h2 {
 
 #about-me {
 	font-size: 1.5em;
+}
+
+#my-work-header {
+	background-color: rgba(244, 66, 92, 1);
+}
+
+#project-container {
+	height: 400px;
+	background-color: rgba(244, 66, 92, .35);
+}
+
+#contact-header {
+	background-color: rgba(51, 165, 161, 1);
+}
+
+#contact-info-container {
+	height: 400px;
+	background-color: rgba(51, 165, 161, .5);
 }
