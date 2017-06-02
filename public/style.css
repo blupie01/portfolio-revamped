@@ -31,17 +31,23 @@ h2 {
 	padding: 20px;
 }
 
+/*section {
+	padding-bottom: 7%;
+}*/
+
 #about,
 #my-work,
 #contact,
 #intro-heading {
 	text-align: center;
 	font-family: poiretOne;
+	padding-bottom: 7%;
 }
 
 #header-name,
 #intro-heading,
-.header-links {
+.header-links,
+#footer {
 	font-family: lottepaperfang;
 }
 
@@ -49,8 +55,14 @@ h2 {
 	height: 6em;
 	background-color: rgba(42, 44, 56, 1);
 	position: fixed;
+	top: 0px;
+	width: 100%;
 	z-index: 1;
 }
+
+/*#sections-container {
+	position: absolute;
+}*/
 
 #header-name {
 	float: left;
@@ -79,24 +91,13 @@ h2 {
 
 #intro-heading {
 	color: rgb(48, 23, 34);
-	height: 550px;
+	height: 600px;
 }
-
-/*#my-face {
-	max-width: 100%;
-}*/
-
-/*#my-face {
-	width: 150px;
-	height: 150px;
-	background-image: url("./pictures/derp.jpg");
-	background-size: 150px 150px;
-}*/
 
 #intro-container {
 	position: relative;
 	top: 50%;
-	transform: translateY(-25%); 
+	transform: translateY(-30%); 
 }
 
 #intro-mainheader {
@@ -111,6 +112,7 @@ h2 {
 #about {
 	background-color: rgba(42, 44, 56, .75);
 	color: white;
+	padding-top: 7%;
 }
 
 #about-me-container {
@@ -119,6 +121,10 @@ h2 {
 
 #about-me {
 	font-size: 1.5em;
+}
+
+#my-work {
+
 }
 
 #my-work-header {
@@ -137,4 +143,19 @@ h2 {
 #contact-info-container {
 	height: 400px;
 	background-color: rgba(51, 165, 161, .5);
+}
+
+#footer {
+	height: 4em;
+	background-color: rgba(42, 44, 56, 1);
+	z-index: 1;
+	width: 100%;
+	bottom: 0px;
+}
+
+#copyright {
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 35%;
 }
