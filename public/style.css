@@ -8,18 +8,12 @@
 	src: url(./fonts/PoiretOne-Regular.ttf);
 }
 
-.parallax { 
-    /* The image used */
-    background-image: url("./pictures/autumn-trees.jpg");
-
-    /* Set a specific height */
-    height: 500px; 
-
-    /*Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body { 
+	background: url("./pictures/autumn-trees.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 div {
@@ -57,7 +51,7 @@ h2 {
 	position: fixed;
 	top: 0px;
 	width: 100%;
-	z-index: 1;
+	/*z-index: 1;*/
 }
 
 /*#sections-container {
@@ -121,6 +115,26 @@ h2 {
 
 #about-me {
 	font-size: 1.5em;
+}
+
+/*#devicon-container {
+	background-color: white;
+	width: 80%;
+	height: auto;
+}*/
+
+#skill-header {
+	font-family: poiretOne;
+}
+
+#skills-container {
+	background-color: white;
+	color: black;
+	width: 72%;
+}
+
+.skill-icons {
+	font-size: 5.5em;
 }
 
 #my-work {
