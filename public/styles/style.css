@@ -1,15 +1,15 @@
 @font-face {
 	font-family: lottepaperfang;
-	src: url(./fonts/lottepaperfang.ttf);
+	src: url(../fonts/lottepaperfang.ttf);
 }
 
 @font-face {
 	font-family: poiretOne;
-	src: url(./fonts/PoiretOne-Regular.ttf);
+	src: url(../fonts/PoiretOne-Regular.ttf);
 }
 
 body { 
-	background: url("./pictures/autumn-trees.jpg") no-repeat center center fixed;
+	background: url("../pictures/autumn-trees.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -35,7 +35,7 @@ h2 {
 #intro-heading {
 	text-align: center;
 	font-family: poiretOne;
-	padding-bottom: 7%;
+	/*padding-bottom: 7%;*/
 }
 
 #header-name,
@@ -131,6 +131,7 @@ h2 {
 	background-color: white;
 	color: black;
 	width: 72%;
+	/*margin: 25px 0px;*/
 }
 
 .skill-icons {
